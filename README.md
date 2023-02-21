@@ -1,8 +1,14 @@
 # docker-on-ubuntu
 Install docker and docker-compose on ubuntu script 
 
+Create file setup-docker.sh
 
-Code SH
+```sh
+touch setup-docker.sh
+chmod +x ./setup-docker.sh
+```
+
+paste this code by nano editor 
 
 ```sh
 echo "Int before Setup"
@@ -36,3 +42,10 @@ sudo apt -y install docker-compose
 
 ```
 
+Run 
+
+```sh
+sudo ./setup-docker.sh
+```
+
+ang join with docker... 
