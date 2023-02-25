@@ -13,7 +13,7 @@ paste this code by nano editor
 ```sh
 echo "Int before Setup"
 echo " by AHMAD YAMAN SAYED"
-sudo apt upgrade
+sudo apt -y upgrade
 sudo apt update
 sudo apt -y install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -34,4 +34,4 @@ Run
 sudo ./setup-docker.sh
 ```
 
-ang join with docker... 
+and join with docker... 
